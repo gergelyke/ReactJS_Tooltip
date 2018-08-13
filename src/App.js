@@ -22,8 +22,7 @@ export class TooltipContainer extends React.Component {
 
   // Changes transition-delay property to cause a delay on the mouse enter hover
   handleMouseEnterDelay() {
-    var mouseIn = document.getElementById('tooltip');
-    console.log(mouseIn)
+    var mouseIn = document.getElementById('tooltip');    
     var delayIn = mouseIn.style.transitionDelay = '0s';    
     this.setState({
       transitionDelay: {delayIn}     
@@ -32,8 +31,7 @@ export class TooltipContainer extends React.Component {
  
   // Changes transition-delay property to result in a delay while moving the mouse away
   handleMouseLeaveDelay() {
-    var mouseLeave = document.getElementById('tooltiptext');
-    console.log(mouseLeave)
+    var mouseLeave = document.getElementById('tooltiptext');   
     var delayLeave = mouseLeave.style.transitionDelay = '1s';
     this.setState({
      transitionDelay: {delayLeave}
