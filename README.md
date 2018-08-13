@@ -17,12 +17,12 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Settings
 1. Positioning: relative (defined in App.css .tooltip position)
 2. onMouseEnterDelay: 
-    On intial render, set to 0s. 
-    Subsequent entries will change to a 1s delay.
-    Can be changed in the handleMouseEnterDelay function in App.js
+    On intial render, set to 0s.   
+    Subsequent entries will change to a 1s delay.  
+    Can be changed in the handleMouseEnterDelay function in App.js  
 3. onMouseLeaveDelay:
-    Set to 1s.
-    Can be changed in the handleMouseLeaveDelay function in App.js
+    Set to 1s.  
+    Can be changed in the handleMouseLeaveDelay function in App.js  
 
 ## Files 
 1. App.js: used as the TooltipContainer to store logic and JSX
