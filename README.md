@@ -1,6 +1,7 @@
 ## ReactJS_Tooltip
 A customizable tooltip built using ReactJS.
-![alt text](https://imgur.com/a/uHA5kPh)
+
+![Tooltip](https://imgur.com/a/uHA5kPh)
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
